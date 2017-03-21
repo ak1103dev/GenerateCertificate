@@ -1,0 +1,2 @@
+openssl req -new -out ca.csr -keyout ca.key -subj \
+'/C=TH/ST=Bangkok/L=Chatuchak/O=Kasetsart University/OU=Computer Engineering/CN=LAB20 CA/emailAddress=apichan.c@ku.th'

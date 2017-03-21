@@ -1,0 +1,8 @@
+cp ../server/server.csr . && \
+openssl x509 -sha256 \
+-in server.csr \
+-out server.crt \
+-req -CA ca.crt \
+-CAkey ca.key \
+-CAcreateserial \
+-days 365
