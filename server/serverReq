@@ -1,2 +1,2 @@
 openssl req -new -out server.csr -keyout server.key -subj \
-'/C=TH/ST=Bangkok/L=Chatuchak/O=Kasetsart University/OU=Computer Engineering/CN=$(hostname)/emailAddress=apichan.c@ku.th'
+'/C=TH/ST=Bangkok/L=Chatuchak/O=Kasetsart University/OU=Computer Engineering/CN=lab20.netlab2017.ku.th/emailAddress=apichan.c@ku.th'
